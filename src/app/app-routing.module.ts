@@ -12,23 +12,7 @@ const routes: Routes = [
 {path:"men", component:MenComponent},
 {path:"women", component:WomenComponent},
 {path:"sale", component:SaleComponent},
-{path:"gifting", component:GiftingComponent},
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+{path:"gifting", component:GiftingComponent}
 
 ];
 
