@@ -8,7 +8,7 @@ import { WomenComponent } from './women/women.component';
 
 const routes: Routes = [
 {path:"", redirectTo:"home", pathMatch: "full"},
-{path:"home", component:HomeComponent},
+{path:"home", component:HomeComponent}, //homecomponent
 {path:"men", component:MenComponent},
 {path:"women", component:WomenComponent},
 {path:"sale", component:SaleComponent},
