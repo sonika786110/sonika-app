@@ -9,9 +9,9 @@ import { WomenComponent } from './women/women.component';
 const routes: Routes = [
 {path:"", redirectTo:"home", pathMatch: "full"},
 {path:"home", component:HomeComponent}, //homecomponent
-{path:"men", loadChildren: ()=> import('./men/men.module').then(m => m.MenModule)},
-{path:"women", component:WomenComponent},
-{path:"sale", component:SaleComponent},
+{path:"men", loadChildren: ()=> import('./men/men.module').then(m => m.MenModule)}, // here we are telling to load children and download the module
+{path:"sale", loadChildren: ()=> import('./sale/sale.module').then(m => m.SaleModule)},
+{path:"Women", component:WomenComponent},
 {path:"gifting", component:GiftingComponent}
 
 ];
